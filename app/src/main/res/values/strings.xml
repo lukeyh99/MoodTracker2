@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mood Tracker</string>
+    <string name="hello_blank_fragment" >Hello blank fragment</string>
+    <string name="cover" ></string>
+    <string name="home_make_yourself"></string>
+    <string name="work_with_you"></string>
+    <string name="happy" >happy</string>
+    <string name="content">content</string>
+    <string name="glum" >glum</string>
+    <string name="sad" >sad</string>
+    <string name="choose_mood"> choose your mood</string>
+    <string name="notes_on_mood"> Mood Description</string>
+    <string name="start_typing">Type here</string>
+    <string name="saveInfo"> Save</string>
+    <string name="delete"> Delete</string>
+    <string name="go_back"> Return to previous page</string>
+    <string name="title"> Title</string>
+    <string name="dear_diary"> Dear Diary , </string>
+</resources>
