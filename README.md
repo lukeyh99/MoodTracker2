@@ -1,5 +1,6 @@
-#USer focused
+
 # MoodTracker2
+#User focused
 MoodTracker: is an app designed to help you track and manage your mood. It allows you to record your daily mood,
 set reminders to check in on your emotions, and view your progress over time.
 
