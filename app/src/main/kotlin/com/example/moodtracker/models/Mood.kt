@@ -3,7 +3,7 @@ package com.example.moodtracker.models
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-//creating the sql table in the database for the mood section
+//description of mood database in room
 @Entity(tableName = "mood_table")//name of table
 class Mood (
     @PrimaryKey(autoGenerate = true) val id: Int = 0,//random number for primary key
