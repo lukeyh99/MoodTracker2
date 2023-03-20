@@ -7,7 +7,7 @@ import java.io.Serializable
 
 @Entity(tableName = "diary_table")//name of table
 class Note (
-    @PrimaryKey(autoGenerate = true) val id : Int = 0,//building sqlLite database
+    @PrimaryKey(autoGenerate = true) val id : Int = 0,
     @ColumnInfo val title: String,//title of diary entry
     @ColumnInfo val info: String,//diary entry
     @ColumnInfo val date: String,//date of entry
