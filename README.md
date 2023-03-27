@@ -36,3 +36,16 @@ Technologies used for development :
   -MVVM
   -Coroutines
   -Room
+
+Database: Implements RoomDatabase on top of integrated SQLite Database in android studio, uses data access objects to query database.
+Repositories: Act as store of data for view model to access and link to the user interface.
+
+Layout: Contains all the xml files for user design such as images, views, and buttons.
+
+Gradle build: Contains all the project dependencies and plugins that are essential to run the app.
+
+AndroidTest: Section for unit testing/functional testing for the app can add extra tests to instrumental test file if needs be, for additional emulator testing.
+
+Adapters: Bind data from the SQLite database to the ui.
+
+Fragments: This section contains all the fragments for each section of the app and their respective viewmodel. These are used to build flexible interfaces and can be modified in order to suit different screen sizes or orientation. They provide the backend functionality for each window. Allows for easier management of code.
