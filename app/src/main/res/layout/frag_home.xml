@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/wallpaper2"
     tools:context=".ui.fragments.homeWindow.HomeFrag">
 
 
@@ -16,7 +16,7 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal"
         android:text="Day"
-        android:textColor="#65D8E3"
+        android:textColor="@color/white"
         android:textSize="70dp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
         android:layout_marginTop="80dp"
         android:fontFamily="cursive"
         android:text="Get better today"
-        android:textColor="#951414"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="italic|bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -51,7 +51,7 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal"
         android:text="By"
-        android:textColor="#65D8E3"
+        android:textColor="@color/white"
         android:textSize="70dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,10 +61,7 @@
         app:layout_constraintTop_toTopOf="@id/TitleOfApp"
         app:layout_constraintVertical_bias="0.001" />
 
-
-    <!--this is the name and tag for the sad face emoji
-
-                   />-->
+    
 
 
     <TextView
@@ -76,7 +73,7 @@
         android:gravity="center_horizontal"
         android:orientation="horizontal"
         android:text="Day"
-        android:textColor="#65D8E3"
+        android:textColor="@color/white"
         android:textSize="70dp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
