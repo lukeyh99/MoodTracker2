@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:background="@drawable/screenbackground"
         android:layout_height="wrap_content">
-<!-- this part needs to change the variables-->
+
     <TextView
         android:id="@+id/textViewTitle"
         android:layout_width="match_parent"
