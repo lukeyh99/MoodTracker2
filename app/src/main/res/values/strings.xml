@@ -9,6 +9,8 @@
     <string name="glum" >glum</string>
     <string name="sad" >sad</string>
     <string name="choose_mood"> choose your mood</string>
+    <string name="goals">Enter todays goals</string>
+    <string name="editNote"> Edit Diary Entry</string>
     <string name="notes_on_mood"> Mood Description</string>
     <string name="start_typing">Type here</string>
     <string name="saveInfo"> Save</string>
