@@ -60,9 +60,10 @@ The app folder contains the src file containing all the scripts used to build th
 Inside the src folder is where you will find the main folder and the androidTest folder which is used to test the main folder implementation.
 Inside main is where all the kotlin files and xml files are housed these are what build the whole app.
 Res folder contains everything UI related and pictures and navigation specifications,
-Kotlin folder contains all the backend work, linking the UI to the data and building the fragments and the database. Its broken down into 
--adapters 
--data 
--models 
--UI 
--Utils
+Kotlin folder contains all the backend work, linking the UI to the data and building the fragments and the database. 
+Its broken down into :
+  -adapters 
+  -data 
+  -models 
+  -UI 
+  -Utils
