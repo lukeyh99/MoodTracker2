@@ -52,7 +52,7 @@ Navigation: Uses androids bottom navigation widget in order to get from window t
 
 Fragments: This section contains all the fragments for each section of the app and their respective viewmodel. These are used to build flexible interfaces and can be modified in order to suit different screen sizes or orientation. They provide the backend functionality for each window. Allows for easier management of code.
 
-Compiling: In order to compile the code, it was run on Android Studio and built there also, the whole app was ran on the pixel 6pro api 33 on android version 33.
+Compiling: In order to compile the code, it was run on Android Studio and built there also, the whole app was ran on the pixel 6pro api 33 on android version 33.  Requires you to install android studio to launch it as it uses gradle as its build tool.
 
 Folder contents: Top layer contains outer gradle build , the app folder and other files automatically created during the creation of the app.
 
