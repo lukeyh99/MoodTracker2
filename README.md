@@ -48,6 +48,8 @@ AndroidTest: Section for unit testing/functional testing for the app can add ext
 
 Adapters: Bind data from the SQLite database to the ui.
 
+Navigation: Uses androids bottom navigation widget in order to get from window to window, four buttons on the bar for each section, ful nav.xml file dictating the direction of each button click.
+
 Fragments: This section contains all the fragments for each section of the app and their respective viewmodel. These are used to build flexible interfaces and can be modified in order to suit different screen sizes or orientation. They provide the backend functionality for each window. Allows for easier management of code.
 
 Compiling: In order to compile the code, it was run on Android Studio and built there also, the whole app was ran on the pixel 6pro api 33 on android version 33.
