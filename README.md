@@ -53,3 +53,15 @@ Navigation: Uses androids bottom navigation widget in order to get from window t
 Fragments: This section contains all the fragments for each section of the app and their respective viewmodel. These are used to build flexible interfaces and can be modified in order to suit different screen sizes or orientation. They provide the backend functionality for each window. Allows for easier management of code.
 
 Compiling: In order to compile the code, it was run on Android Studio and built there also, the whole app was ran on the pixel 6pro api 33 on android version 33.
+
+Folder contents: Top layer contains outer gradle build , the app folder and other files automatically created during the creation of the app.
+- The app folder contains the src file containing all the scripts used to build the app, and theres another build,gradle file here which contains the dependencies,     plugins and android versions etc.
+- Inside the src folder is where youu will find the main folder and the androidTest folder which is used to test the main folder implementation.
+- Inside main is where all the kotlin files and xml files are housed these are what build the whole app.
+- Res folder contains everything UI related and pictures and navigation specifications,
+- Koltlin folder contains all the backend work, linking the UI to the data and building the fragments and the database. Its broken down into 
+  -adapters
+  -data
+  -models
+  -UI
+  -Utils
